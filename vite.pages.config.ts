@@ -7,7 +7,7 @@ import { createServer, defineConfig, type Plugin } from 'vite';
 
 const projectRoot = fileURLToPath(new URL('./', import.meta.url));
 const outputDirectory = fileURLToPath(new URL('./dist-pages', import.meta.url));
-const defaultSiteUrl = 'https://rogueleather.ca';
+const defaultSiteUrl = 'https://milkywayga.github.io/RogueArtisan';
 const siteUrl = (process.env.SITE_URL?.trim() || defaultSiteUrl).replace(
   /\/+$/,
   '',
@@ -15,7 +15,7 @@ const siteUrl = (process.env.SITE_URL?.trim() || defaultSiteUrl).replace(
 const requestedBasePath = process.env.PAGES_BASE_PATH?.trim();
 const basePath = requestedBasePath
   ? `/${requestedBasePath.replace(/^\/+|\/+$/g, '')}/`.replace(/^\/\/$/, '/')
-  : '/rogue-artisan-site/';
+  : '/RogueArtisan/';
 
 function googleIntegrations(): Plugin {
   const measurementId = process.env.GA_MEASUREMENT_ID?.trim();

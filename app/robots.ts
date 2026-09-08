@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://rogueleather.ca/sitemap.xml',
+    sitemap: 'https://milkywayga.github.io/RogueArtisan/sitemap.xml',
   };
 }

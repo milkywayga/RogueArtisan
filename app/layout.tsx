@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://rogueleather.ca'),
+  metadataBase: new URL('https://milkywayga.github.io/RogueArtisan'),
   title: {
     default: 'Custom Leather Goods & One-of-One Commissions | Rogue Artisan',
     template: '%s | Rogue Artisan',

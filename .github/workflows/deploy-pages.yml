@@ -34,8 +34,8 @@ jobs:
       - name: Build the static site
         run: pnpm build:pages
         env:
-          SITE_URL: ${{ vars.SITE_URL }}
-          PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH }}
+          SITE_URL: ${{ vars.SITE_URL != '' && vars.SITE_URL || 'https://milkywayga.github.io/RogueArtisan' }}
+          PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH != '' && vars.PAGES_BASE_PATH || 'RogueArtisan' }}
           GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
           GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
       - name: Configure Pages
