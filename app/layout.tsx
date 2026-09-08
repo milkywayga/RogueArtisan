@@ -4,11 +4,11 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://rogueleather.ca'),
   title: {
-    default: 'Custom Leather Goods & One-of-One Commissions | Rogue Artisan',
+    default: 'Custom Leather Goods & Bespoke Commissions | Rogue Artisan',
     template: '%s | Rogue Artisan',
   },
   description:
-    'Commission a one-of-one leather wallet, card holder, cover, or small good from Rogue Artisan. Choose every detail or leave the aesthetic to the maker.',
+    'Commission a bespoke leather wallet, card holder, cover, or small good from Rogue Artisan. Choose every detail or leave the aesthetic to the maker.',
   alternates: {
     canonical: '/',
   },
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: 'Rogue Artisan',
-    title: 'Custom Leather Goods & One-of-One Commissions | Rogue Artisan',
+    title: 'Custom Leather Goods & bespoke Commissions | Rogue Artisan',
     description:
-      'Commission a one-of-one leather wallet, card holder, cover, or small good. Choose every detail or leave the aesthetic to the maker.',
+      'Commission a bespoke leather wallet, card holder, cover, or small good. Choose every detail or leave the aesthetic to the maker.',
     type: 'website',
     locale: 'en_CA',
     url: '/',
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Custom Leather Goods & One-of-One Commissions | Rogue Artisan',
+    title: 'Custom Leather Goods & Bespoke Commissions | Rogue Artisan',
     description:
-      'Commission a one-of-one leather wallet, card holder, cover, or small good from Rogue Artisan.',
+      'Commission a bespoke leather wallet, card holder, cover, or small good from Rogue Artisan.',
     images: ['/og.jpg'],
   },
   icons: { icon: '/media/rogue-logo-1-vector.svg' },
