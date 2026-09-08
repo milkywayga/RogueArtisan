@@ -652,7 +652,7 @@ function Hero() {
       <img
         className="hero-poster"
         src={media.hero}
-        srcSet={`${sitePath('/media/hero-420.webp')} 420w, ${media.hero} 602w`}
+        srcSet={`${sitePath('/media/20241020_094053.jpg')} 420w, ${media.hero} 602w`}
         sizes="100vw"
         alt="Rogue Artisan oxblood leather wallet and hand tools on a workbench"
         width={602}
