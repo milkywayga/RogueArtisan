@@ -5,14 +5,14 @@ import { CommissionPageContent } from '@/components/commission-page-content';
 export const metadata: Metadata = {
   title: "Custom Leather Commissions & Maker's Choice",
   description:
-    "Start a one-of-one custom leather commission. Bring your own direction or choose Maker's Choice, with commissions starting at $100 CAD.",
+    "Start a bespoke leather commission. Bring your own direction or choose Maker's Choice, with commissions starting at $125 CAD.",
   alternates: {
     canonical: '/commission',
   },
   openGraph: {
     title: "Custom Leather Commissions & Maker's Choice | Rogue Artisan",
     description:
-      "Bring your own direction or choose Maker's Choice for a one-of-one leather commission, starting at $100 CAD.",
+      "Bring your own direction or choose Maker's Choice for a one-of-one leather commission, starting at $125 CAD.",
     url: '/commission',
   },
 };
@@ -45,7 +45,7 @@ const commissionStructuredData = {
         priceCurrency: 'CAD',
         priceSpecification: {
           '@type': 'PriceSpecification',
-          minPrice: 100,
+          minPrice: 125,
           priceCurrency: 'CAD',
         },
       },
