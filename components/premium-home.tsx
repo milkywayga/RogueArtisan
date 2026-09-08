@@ -20,7 +20,7 @@ import { sitePath } from '@/components/site-path';
 
 const media = {
   ctaVideo: sitePath('/media/VID-20260731-WA0040.mp4'),
-  hero: sitePath('/media/IMG-20260731-WA0038.webp'),
+  hero: sitePath('/media/20241020_094053.jpg'),
 };
 
 const moss = [
