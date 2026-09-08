@@ -663,7 +663,7 @@ function Hero() {
         ROGUE ARTISAN
         <em>Custom Leather · Vancouver</em>
       </h1>
-      <p>One-of-one leather goods, designed with you and made in Vancouver.</p>
+      <p>Bespoke leather goods, designed with you and made in Vancouver.</p>
       <div className="hero-glow" ref={glowRef} aria-hidden="true" />
     </section>
   );
